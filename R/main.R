@@ -1513,5 +1513,5 @@ ggiNEXTbeta = function(x, type = c('Beta diversity', 'Dissimilarity'),
     theme_bw() +
     theme(legend.position = "bottom", legend.title = element_blank()) +
     labs(x='Sample coverage', y=ylab, title=main) +
-    guides(shape = FALSE, stroke=FALSE)
+    guides(shape = FALSE, size=FALSE)
 }
