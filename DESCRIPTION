@@ -1,0 +1,29 @@
+Package: iNEXTbeta
+Type: Package
+Title: Interpolation and Extrapolation for Beta Diversity
+Version: 0.1.0
+Author: Y. H. Kao and Anne Chao
+Maintainer: Y. H. Kao <yuhsuankao.don@gmail.com>
+Description: Functions to compute and plot rarefaction and extrapolation of taxonomic, phylogenetic and functional 
+  beta diversity and dissimilarity based on standardized sample coverage for individual-based (abundance) data or sampling-unit-based (incidence) data.
+License: What license is it under?
+Imports: 
+    FunD,
+    PhD,
+    Rcpp,
+    abind,
+    ade4,
+    chaoUtility,
+    colorRamps,
+    future.apply,
+    ggplot2,
+    iNEXT,
+    magrittr,
+    phyclust,
+    phytools,
+    readxl,
+    tidytree,
+    tidyverse
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
